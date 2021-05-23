@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body{
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color:#f2f2f2;
+    font-size: 1.1rem;
+  }
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 10px;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:#68b3b3;
+  }
+  .navbar .navlogo {
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 35px;
+    padding-left: 10px;
+      padding-right: 10px;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .nav-item{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .navlink{
+      color:#fff;
+      padding-left: 3px;
+      padding-right: 3px;
+      padding-top:3px;
+      text-decoration: none;
+  }
+  .nav-item a:hover{
+      
+      text-decoration: none;
+      color:#246a73;
+  }
+  .welcome{
+    padding-top:5px;
+  }
+  .container{
+    padding-top:50px;
+  }
+  .btn-info {
+    background: #68b3b3;
+    color: #ffffff;
+    border: none;
+}
+.btn-outline-info{
+  background: #68b3b3;
+    color: #ffffff;
+    border: none;
+}
+.jumbotron{
+  background-color: #d9d9d9;
+}

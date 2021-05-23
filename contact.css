@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+ 
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 10px;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(140, 193, 193);
+  }
+  .navbar .navlogo {
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 35px;
+    padding-left: 10px;
+      padding-right: 10px;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .nav-item{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .navlink{
+      color:#fff;
+      padding-left: 3px;
+      padding-right: 3px;
+      padding-top:3px;
+      text-decoration: none;
+  }
+  .nav-item a:hover{
+      
+      text-decoration: none;
+      color:black;
+  }
+  
+  .form h1 {
+    font-size:50px;
+    color:#68b3b3 ;
+  
+    padding-top:100px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+
+  
+  .f-input::placeholder {
+    color:black;
+    opacity:0.9;
+  }
+  
+  .f-input {
+    background-color: transparent;
+    border:2px solid #68b3b3;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+     color:black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 4px;
+    line-height: 22px;
+    text-align:left;
+  }
+  
+  .form .f-input:focus { 
+    border:2px solid #3a3939; }
+  
+  .form textarea {
+    height: 250px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  
+  .form button {
+    max-width:450px;
+     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#68b3b3;
+    border-radius:10px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+  text-align:center;
+    transition: all 0.3s;
+    font-weight:600; 
+  }
+  .form button:hover {
+    
+   background:#3a3939; 
+  }
